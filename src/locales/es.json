@@ -1,0 +1,27 @@
+{
+	"http": {
+		"success": {
+			"ok": "Operación exitosa.",
+			"created": "Registro creado exitosamente."
+		},
+		"error": {
+			"server": "Error interno del servidor.",
+			"not_found": "El registro no encontrado.",
+			"exists": "Esta información ya está registrada.",
+			"bad_req": "Esta operación no se puede completar.",
+			"otp": "El código OTP no es válido.",
+			"login": "Credenciales incorrectas.",
+			"auth": "No autorizado."
+		}
+	},
+	"validations": {
+		"req": "El campo {{field}} es requerido.",
+		"format": "El campo {{field}} no tiene el formato correcto.",
+		"invalid_characters": "El campo {{field}} no contiene caracteres válidos.",
+		"length_text": "El campo {{field}} debe tener al menos {{min}} caracteres.",
+		"length": "El campo {{field}} no contiene una longitud válida.",
+		"exact_length": "El campo {{field}} debe tener exactamente {{length}} caracteres.",
+		"integer": "El campo {{field}} debe ser un número entero.",
+		"allowed": "El campo {{field}} no contiene un valor permitido."
+	}
+}
